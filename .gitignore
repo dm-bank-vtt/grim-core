@@ -1,0 +1,16 @@
+# Dependencies and build output
+node_modules/
+module.zip
+*.map
+
+# Local backups and editor/OS junk
+*.bak
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets never belong in a Module repo
+.env
+.env.*
